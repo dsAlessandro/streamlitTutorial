@@ -26,3 +26,5 @@ if __name__ == "__main__":
         
     if "connection" not in st.session_state.keys():
         st.session_state["connection"]=False
+
+    check_connection()
